@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <parameter name="user" value="8452978234"/>
+  <parameter name="url" value="https://www.flipkart.com/"/>
+  <parameter name="pass" value="online@123"/>
+  <test name="hello">
+    <parameter name="user" value="8452978234"/>
+    <parameter name="url" value="https://www.flipkart.com/"/>
+    <parameter name="pass" value="online@123"/>
+    <classes>
+      <class name="com.flipkart.test.FlipkartTest"/>
+    </classes>
+  </test> <!-- hello -->
+  <test name="hello(failed)">
+    <parameter name="user" value="8452978234"/>
+    <parameter name="url" value="https://www.flipkart.com/"/>
+    <parameter name="pass" value="online@123"/>
+    <classes>
+      <class name="com.flipkart.test.FlipkartTest">
+        <methods>
+          <include name="enterCredentials"/>
+          <include name="testlaunchUrl"/>
+        </methods>
+      </class> <!-- com.flipkart.test.FlipkartTest -->
+    </classes>
+  </test> <!-- hello(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

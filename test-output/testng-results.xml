@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13144" started-at="2018-03-31T17:28:58Z" finished-at="2018-03-31T17:29:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13144" started-at="2018-03-31T17:28:58Z" finished-at="2018-03-31T17:29:11Z">
+      <class name="com.flipkart.test.FlipkartTest">
+        <test-method status="PASS" signature="beforeFlipkartMethod()[pri:0, instance:com.flipkart.test.FlipkartTest@16bc1eb]" name="beforeFlipkartMethod" is-config="true" duration-ms="9" started-at="2018-03-31T22:58:58Z" finished-at="2018-03-31T22:58:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeFlipkartMethod -->
+        <test-method status="PASS" signature="testlaunchUrl(java.lang.String)[pri:0, instance:com.flipkart.test.FlipkartTest@16bc1eb]" name="testlaunchUrl" duration-ms="12737" started-at="2018-03-31T22:58:58Z" finished-at="2018-03-31T22:59:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.flipkart.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlaunchUrl -->
+        <test-method status="PASS" signature="afterFlipkartMethod()[pri:0, instance:com.flipkart.test.FlipkartTest@16bc1eb]" name="afterFlipkartMethod" is-config="true" duration-ms="0" started-at="2018-03-31T22:59:10Z" finished-at="2018-03-31T22:59:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterFlipkartMethod -->
+        <test-method status="PASS" signature="beforeFlipkartMethod()[pri:0, instance:com.flipkart.test.FlipkartTest@16bc1eb]" name="beforeFlipkartMethod" is-config="true" duration-ms="0" started-at="2018-03-31T22:59:10Z" finished-at="2018-03-31T22:59:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeFlipkartMethod -->
+        <test-method status="PASS" signature="enterCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.flipkart.test.FlipkartTest@16bc1eb]" name="enterCredentials" duration-ms="380" started-at="2018-03-31T22:59:10Z" depends-on-methods="com.flipkart.test.FlipkartTest.testlaunchUrl" finished-at="2018-03-31T22:59:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8452978234]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[online@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCredentials -->
+        <test-method status="PASS" signature="afterFlipkartMethod()[pri:0, instance:com.flipkart.test.FlipkartTest@16bc1eb]" name="afterFlipkartMethod" is-config="true" duration-ms="0" started-at="2018-03-31T22:59:11Z" finished-at="2018-03-31T22:59:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterFlipkartMethod -->
+      </class> <!-- com.flipkart.test.FlipkartTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
